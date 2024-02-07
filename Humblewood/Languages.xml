@@ -3,7 +3,7 @@
 	<info>
 		<name>Languages</name>
 		<update version="0.0.1">
-			<file name="languages.xml"/>
+			<file name="languages.xml" url="https://raw.githubusercontent.com/yeswample/DND/main/Humblewood/Languages.xml" />
 		</update>
 	</info>
 

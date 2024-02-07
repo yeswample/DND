@@ -19,7 +19,7 @@
 			<set name="script">Birdfolk</set>
 		</setters>
 	</element>
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_CERVAN">
+	<element name="Cervan" type="Language" source="Humblewood" id="ID_LANGUAGE_CERVAN">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Cervans.</p>
@@ -29,7 +29,7 @@
 			<set name="speakers">Cervans</set>
 		</setters>
 	</element>
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_HEDGE">
+	<element name="Hedge" type="Language" source="Humblewood" id="ID_LANGUAGE_HEDGE">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Hedges.</p>
@@ -40,7 +40,7 @@
 			<set name="script">Sylvan</set>
 		</setters>
 	</element>
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_JERBEEN">
+	<element name="Jerbeen" type="Language" source="Humblewood" id="ID_LANGUAGE_JERBEEN">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Jerbeens.</p>
@@ -51,7 +51,7 @@
 			<set name="script">Birdfolk</set>
 		</setters>
 	</element>
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_MAPACH">
+	<element name="Mapach" type="Language" source="Humblewood" id="ID_LANGUAGE_MAPACH">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Mapachs.</p>
@@ -62,7 +62,7 @@
 			<set name="script">Mapach</set>
 		</setters>
 	</element>
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_VULPIN">
+	<element name="Vulpin" type="Language" source="Humblewood" id="ID_LANGUAGE_VULPIN">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by Vulpins.</p>

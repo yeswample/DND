@@ -5,7 +5,7 @@
 		<description>Grounded Background</description>       
     <author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.0.7">
-		<file name="Background-Grounded.xml"/>
+		<file name="Background-Grounded.xml" url="https://raw.githubusercontent.com/yeswample/DND/main/Humblewood/Background-Grounded.xml" />
 		</update>
 	</info>
 

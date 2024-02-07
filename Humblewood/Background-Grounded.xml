@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Grounded</name>
+		<description>Grounded Background</description>       
+    <author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.0.7">
+		<file name="Background-Grounded.xml"/>
+		</update>
+	</info>
+
+	<element name="Grounded" type="Background" source="Humblewood" id="ID_BACKGROUND_GROUNDED">
+		<description>
+			<p>Despite the inherent vertical aspects of birdfolk culture, you have always felt safer and more at peace with your feet firmly planted on the soil. You are practical and level-headed,but due to your different perspective on the world other birdfolk see you as quirky or unsettling. Your unique insight allows you to connect with the humblefolk who live under the forest canopy in ways perch dwelling birdfolk cannot</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Athletics, Insight</li>
+				<li><strong>Tool Proficiencies:</strong> One type of artisan's tools.</li>
+				<li><strong>Languages:</strong> One of your choice.</li>
+				<li><strong>Equipment:</strong>a set of artisan's tools, a walking stick, a trinket from another culture, traveling clothes, and a belt pouch containing 5 gp</li>
+			</ul>
+			<h5>An Odd Bird</h5>
+			<p> Among birdfolk your are somewhere between and oddity and an outcast. Some consider your aversion to heights a rejection of birdfolk culture, leading many to find you off-putting. Choose how your community regards you or roll on the table to determine how you fit in.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d6</td><td>Community Place</td></tr>
+				</thead>
+				<tr><td>1</td><td>I am considered weak or unskilled and many treat me like a fledgling.</td></tr>
+				<tr><td>2</td><td>I am looked upon as a traitor to my people.</td></tr>
+				<tr><td>3</td><td>My family wants me to return to the perch, but i just can't.</td></tr>
+				<tr><td>4</td><td>I am not welcome back in my home perch.</td></tr>
+				<tr><td>5</td><td>I am viewed as an oddity, someone for other to laugh at and tease.</td></tr>
+				<tr><td>6</td><td>I have found a new community on the forest floor.</td></tr>
+			
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_FIND_ANOTHER_PATH" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Birdfolk who are grounded often find ways to cope with their aversion to canopy life. Some have completely forsaken their old lives in favor of new ones in undergrowth communities, while others keep ties with family and friends in the perches where they were born.</p>
+			</description>
+		<setters>
+			<set name="short">Athletics, Insight, Artisan's Tools, Language</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<select type="Proficiency" name="Tools of the trade (Grounded)" supports="Artisan Tools" />
+			<select type="Language" name="Language (Grounded)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FIND_ANOTHER_PATH" />
+			<select type="List" name="Community Place" optional="true">
+				<item id="1">I am considered weak or unskilled and many treat me like a fledgling.</item>
+				<item id="2">I am looked upon as a traitor to my people.</item>
+				<item id="3">My family wants me to return to the perch, but i just can't.</item>
+				<item id="4">I am not welcome back in my home perch.</item>
+				<item id="5">I am viewed as an oddity, someone for other to laugh at and tease.</item>
+				<item id="6">I have found a new community on the forest floor.</item>
+				</select>
+				<select type="List" name="Personality Trait" number="1">
+				<item id="1">I always second guess my choices.</item>
+				<item id="2">I have learned to not let the comments of others affect me.</item>
+				<item id="3">I'm eager to show the benefits of my unique perspective.</item>
+				<item id="4">I'm slow to trust someone new, but open up over shared hardships.</item>
+				<item id="5">I manufacture difficult situations to prove my abilities.</item>
+				<item id="6">I get embarrassed easily, even when someone tries to compliment me.</item>
+				<item id="7">I will deny my fears to everyone.</item>
+				<item id="8">I want to see how others handle situations I'm afraid of.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Repentance. I’ve done terrible things in the past, and I want to try and make up for them. (Good)</item>
+				<item id="2">Nature. I’ve seen what’s happening to the forest, and it’s bigger than all of us. We’re all doomed unless we do something about it. (Neutral)</item>
+				<item id="3">Friendship. My friends are like family to me, and I’ll keep trying to do right by them until the end. (Good)</item>
+				<item id="4">Self-Preservation. Any good rat knows when it’s time to flee a sinking ship. I want to be clear of the	Bandit Coalition when it goes down. (Evil)</item>
+				<item id="5">Compassion. The struggle between humblefolk and birdfolk will only lead to more bloodshed. It needs to stop somewhere. (Good)</item>
+				<item id="6">Freedom. I just want to be free to live my own life, and make my own way in the world. (Chaotic)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I did some hard time in Alderheart’s prison, and the perch guard who arrested me still has it out for me.</item>
+				<item id="2">I stole something valuable from the Captain of my unit. I’m in big trouble if they ever find me.</item>
+				<item id="3">I harbor a terrible secret that might change how people think of me if it got out.</item>
+				<item id="4">I still sympathize with the Coalition’s aims, I just believe there’s a better way.</item>
+				<item id="5"> My friends in the Coalition didn’t understand why	I had to leave. They’ve branded me a traitor.</item>
+				<item id="6">I had people in the Coalition who looked up to me as a leader. They might still follow me, if I could only reach them.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I’m always ready to bail when something goes wrong.</item>
+				<item id="2">Whenever I see something valuable, I can’t help but think of a way to steal it.</item>
+				<item id="3">It’s hard for me to trust people. I’ve been burned before.</item>
+				<item id="4">I have a problem with authority. Nobody tells me what to do.</item>
+				<item id="5">There’s a warrant out for my arrest.</item>
+				<item id="6">I have a bad habit that I picked up on the road.</item>
+			</select>
+		</rules>
+		
+	</element>
+
+	<element name="Feature: Find Another Path" type="Background Feature" source="Humblewood" id="ID_BACKGROUND_FEATURE_FIND_ANOTHER_PATH">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Since you have lived your life close to the ground, you are familiar with the undergrowth in the same way other birdfolk are familiar with the canopy. You can always recall the general layout of the terrain around you while traveling along the forest floor. If your path is ever blocked by an obstacle that requires you to climb or otherwise gain height to circumvent it, you can always find a way around, so long as such a path exsists. Additionally, you are adept at finding shelter in the Wood while traveling, and can usually locate a suitable safe shelter (a cave, a tree hollow, or a bramble thicket) somewhere on the forest floor for you and up to five other creatures.</p>
+		</description>
+		<sheet>
+			<description>Since you have lived your life close to the ground, you are familiar with the undergrowth in the same way other birdfolk are familiar with the canopy. You can always recall the general layout of the terrain around you while traveling along the forest floor. If your path is ever blocked by an obstacle that requires you to climb or otherwise gain height to circumvent it, you can always find a way around, so long as such a path exsists. Additionally, you are adept at finding shelter in the Wood while traveling, and can usually locate a suitable safe shelter (a cave, a tree hollow, or a bramble thicket) somewhere on the forest floor for you and up to five other creatures.</description>
+		</sheet>
+		<sheet alt="Find Another Path" />
+	</element>
+</elements>

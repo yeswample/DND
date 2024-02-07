@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml"/>
+		</update>
+	</info>
+
+	<!-- standard -->
+	<element name="Birdfolk" type="Language" source="Humblewood" id="ID_LANGUAGE_BIRDFOLK">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Birdfolk, and Humblefolk.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Birdfolk</set>
+			<set name="script">Birdfolk</set>
+		</setters>
+	</element>
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_CERVAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Cervans.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Cervans</set>
+		</setters>
+	</element>
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_HEDGE">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Hedges.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Hedges</set>
+			<set name="script">Sylvan</set>
+		</setters>
+	</element>
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_JERBEEN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Jerbeens.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Jerbeens</set>
+			<set name="script">Birdfolk</set>
+		</setters>
+	</element>
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_MAPACH">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Mapachs.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Mapachs</set>
+			<set name="script">Mapach</set>
+		</setters>
+	</element>
+		</element>
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_VULPIN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Vulpins.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Vulpins</set>
+			<set name="script">Vulpin</set>
+		</setters>
+	</element>

@@ -43,7 +43,7 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-			<select type="Proficiency" name="Tools of the trade (Grounded)" supports="Artisan Tools" />
+			<select type="Proficiency" name="Tools of the trade (Grounded)" supports="Artisan tools" />
 			<select type="Language" name="Language (Grounded)" supports="Standard||Exotic" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FIND_ANOTHER_PATH" />
 			<select type="List" name="Community Place" optional="true">

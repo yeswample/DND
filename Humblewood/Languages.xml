@@ -62,7 +62,6 @@
 			<set name="script">Mapach</set>
 		</setters>
 	</element>
-		</element>
 	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_VULPIN">
 		<supports>Standard</supports>
 		<description>

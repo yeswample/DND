@@ -5,7 +5,7 @@
 		<description>The content from the Humblewood Handbook.</description>
 		<author url="https://thedeckofmany.com/">Deck of Many</author>
 		<update version="0.1.6">
-			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
+			<file name="Humblewood.index" url="https://raw.githubusercontent.com/yeswample/DND/main/Humblewood.index" />
 		</update>
 	</info>
 	<files>	

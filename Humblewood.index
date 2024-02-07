@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Humblewood</name>
+		<description>The content from the Humblewood Handbook.</description>
+		<author url="https://thedeckofmany.com/">Deck of Many</author>
+		<update version="0.1.6">
+			<file name="Humblewood.index" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="Languages.xml" url="https://raw.githubusercontent.com/yeswample/DND/main/Humblewood/Languages.xml" />
+		<file name="Spells.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Spells.xml" />
+		<file name="Source.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Source.xml" />
+		<file name="Feats.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Feats.xml" />
+		<!-- races -->
+		<file name="Race-Cervan.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Cervan.xml" />
+		<file name="Race-Hedge.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Hedge.xml" />
+		<file name="Race-Jerbeen.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Jerbeen.xml" />
+		<file name="Race-Vulpin.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Vulpin.xml" />
+		<file name="Race-Mapach.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Mapach.xml" />
+		<file name="Race-Corvum.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Corvum.xml" />
+		<file name="Race-Gallus.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Gallus.xml" />
+		<file name="Race-Lumas.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Lumas.xml" />
+		<file name="Race-Strig.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Races/Race-Strig.xml" />
+		<!-- Background -->
+		<file name="Background-Bandit-Defector.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Backgrounds/Background-Bandit-Defector.xml" />
+		<file name="Background-Grounded.xml" url="https://raw.githubusercontent.com/yeswample/DND/main/Humblewood/Background-Grounded.xml" />
+		<!-- Classes -->
+		<file name="fighter-scofflaw.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/fighter-scofflaw.xml" />
+		<file name="cleric-nightdomain.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/cleric-nightdomain.xml" />
+		<file name="communitydomain.xml" url="https://raw.githubusercontent.com/th3R3df0xx/Dnd/master/Humblewood/Classes/cleric-communitydomain.xml" />
+	</files>
+</index>
